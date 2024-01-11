@@ -37,7 +37,7 @@ private slots:
     void goTransform2();
 
 
-    void on_pushButton_clicked();
+    void on_btnNomal_clicked();
 
     void on_btnScience_clicked();
 
@@ -45,15 +45,12 @@ private slots:
 
     void on_btnDate_clicked();
 
-    void on_btnTrams1_clicked();
+    void on_btnTrans_clicked();
 
     void on_btnTrans2_clicked();
 
-    void on_btnNomal_clicked();
 
-    void on_btnTrams_clicked();
 
-    void on_btnTrans_clicked();
 
 signals:
     void goSuccess();

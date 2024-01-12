@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Date</class>
+ <widget class="QWidget" name="Date">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>856</width>
+    <height>608</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Date</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	color: rgb(180, 180, 180);
+	background-color: rgb(255, 255, 255);
+	border-radius:2px;
+	font: 18pt &quot;Arial&quot;
+}
+
+QPushButton:hover{
+	color:rgb(102, 102, 102);
+	background-color: rgb(192, 192, 192);
+}
+
+QPushButton:pressed{
+	background-color: rgb(130, 130, 130);
+	color:black
+}
+
+QLineEdit{
+	font-size:48pt;
+	color:black;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="0">
+      <widget class="QPushButton" name="btnEnd">
+       <property name="text">
+        <string>选择结束日期</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLineEdit" name="endEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLineEdit" name="startEdit"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>差值</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="btnStart">
+       <property name="text">
+        <string>选择开始日期</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLineEdit" name="finalEdit"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>日期之间相隔时间</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

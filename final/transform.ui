@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Transform</class>
+ <widget class="QWidget" name="Transform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>837</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Transform</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	color: rgb(180, 180, 180);
+	background-color: rgb(255, 255, 255);
+	border-radius:2px;
+	font: 18pt &quot;Arial&quot;
+}
+
+QPushButton:hover{
+	color:rgb(102, 102, 102);
+	background-color: rgb(192, 192, 192);
+}
+
+QPushButton:pressed{
+	background-color: rgb(130, 130, 130);
+	color:black
+}
+
+QPushButton:disabled {
+    background-color: black;
+    color: gray;
+}
+
+QLineEdit{
+	font-size:48pt;
+	color:black;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="display1">
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="placeholderText">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnClear">
+       <property name="text">
+        <string>清空</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QComboBox" name="comboBox1">
+     <item>
+      <property name="text">
+       <string>人民币</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>美元</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>欧元</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>英镑</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>日元</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="display2">
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="placeholderText">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnClear2">
+       <property name="text">
+        <string>清空</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <widget class="QComboBox" name="comboBox2">
+     <item>
+      <property name="text">
+       <string>人民币</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>美元</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>欧元</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>英镑</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>日元</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
